@@ -1,0 +1,248 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+/* Header Start */
+header{
+	background-color: #121B2A;
+	padding: 10px 0px;
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo {
+	width: 15%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu {
+	width: 70%;
+	float: right;
+}
+.menu ul {
+	float: right;
+}
+.menu ul li {
+	list-style: none;
+	float: left;
+}
+.menu ul li a {
+	text-decoration: none;
+	padding: 5px 15px;
+	display: block;
+	color: white;
+	transition: 0.5s;
+	margin-top: 25px;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover {
+	color: #0B5DB9;
+}
+/* Header End */
+
+/* Banner Start */
+.banner {
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+.banner-content {
+	width: 45%;
+	margin-top: 200px;
+	margin-bottom: 50px;
+}
+.banner-content p:first-child {
+	color: white;
+	font-size: 25px;
+	line-height: 1.5;
+}
+.banner-content h1 {
+	color: blue;
+	font-size: 35px;
+	line-height: 1.5;
+}
+.banner-content p:last-child {
+	color: white;
+	font-size: 20px;
+	line-height: 1.5;
+}
+.banner-content button {
+	border: none;
+	font-size: 25px;
+	border-radius: 8px;
+	padding: 10px 20px;
+	margin-top: 8px;
+}
+.banner-content button:hover {
+	background: none;
+}
+.banner-content button span {
+	background-color: blue;
+	border-radius: 94px;
+	color: white;
+	padding: 1px 7px;
+}
+/* Banner End */
+
+/* Service Start */
+
+.service {
+	background-color: #121B2C;
+	padding: 50px 0px;
+}
+
+.single-service {
+	width: 29%;
+	padding: 10px 20px;
+	float: left;
+	border-right: 1px solid white;
+	margin-left: 5px;
+}
+.single-service:first-child {
+	padding-left: 0px;
+}
+.single-service:last-child {
+	border-right: 0;
+	padding-right: 0px;
+}
+.title {
+	overflow: hidden;
+}
+.icon {
+	width: 25%;
+	float: left;
+}
+.icon img {
+	width: 100%;
+}
+.icon-content {
+	width: 65%;
+	float: left;
+	margin-top: 10px;
+}
+.icon-content h1{
+	color: white;
+	text-transform: capitalize;
+}
+.icon-content h2{
+	color: blue;
+	text-transform: capitalize;
+}
+.content {
+}
+.content p {
+	color: white;
+	line-height: 1.5;
+}
+/* Service End */
+
+/* Address Start */
+.address {
+	background-color: #040811;
+	padding: 50px 0px;
+}
+.single-address {
+	width: 29%;
+	float: left;
+	padding: 10px 20px;
+	margin-left: 5px;
+}
+.single-address:first-child {
+	padding-left: 0px;
+}
+.single-address:last-child {
+	padding-right: 0px;
+}
+.add-title {
+	overflow: hidden;
+}
+.add-title p {
+	color: white;
+	font-size: 25px;
+	float: left;
+}
+.add-title p span {
+	color: blue;
+}
+.add-content {
+	color: white;
+}
+.add-content p:first-child {
+	padding: 15px 0px;
+	margin-left: 0px;
+}
+.add-content p:last-child {
+	padding-top: 10px;
+}
+.add-img {
+	width: 50%;
+	float: left
+}
+.add-img img {
+	width: 100%;
+}
+.add-title img {
+	width: 100%;
+}
+/* Address End */
+/* Footer Start */
+.footer {
+	background-color: #121B2C;
+	padding-top: 30px;
+	padding-bottom: 10px;
+
+}
+.footer-left {
+	width: 60%;
+	float: left;
+}
+.footer-left ul {
+	overflow: hidden;
+}
+.footer-left ul li {
+	list-style: none;
+	float: left;
+}
+.footer-left ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+	padding: 0px 15px;
+	display: block;
+	border-right: 1px solid white;
+}
+.footer-left ul li:first-child a {
+	padding-left: 0px;
+}
+.footer-left ul li:last-child a {
+	padding-right: 0px;
+	border-right: 0px;
+}
+.footer-left p {
+	padding-top: 15px;
+	color: white;
+	font-size: 14px;
+}
+.footer-right {
+	width: 30%;
+	float: right;
+	overflow: hidden;
+}
+.footer-logo {
+	width: 30%;
+	float: left;
+	padding: 10px 20px;
+}
+.footer-logo img {
+	width: 100%;
+}
+/* Footer End */
+
