@@ -1,6 +1,9 @@
 * {
 	margin: 0;
 	padding: 0;
+}
+body {
+	color: #fff;
 	font-family: sans-serif;
 }
 /* Header Start */
@@ -26,23 +29,23 @@ header{
 }
 .menu ul {
 	float: right;
+	list-style: none;
 }
 .menu ul li {
-	list-style: none;
 	float: left;
 }
 .menu ul li a {
 	text-decoration: none;
+	color: #fff;
 	padding: 5px 15px;
 	display: block;
-	color: white;
 	transition: 0.5s;
 	margin-top: 25px;
 }
 .menu ul li:last-child a{
 	padding-right: 0;
 }
-.menu ul li a:hover {
+.menu ul li:hover a {
 	color: #0B5DB9;
 }
 /* Header End */
@@ -51,66 +54,64 @@ header{
 .banner {
 	background-image: url(../images/banner.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
 	background-position: top center;
+	-webkit-background-size: cover;
+	background-size: cover;
 }
 .banner-content {
 	width: 45%;
 	margin-top: 200px;
 	margin-bottom: 50px;
 }
-.banner-content p:first-child {
-	color: white;
-	font-size: 25px;
+.banner-content h3 {
+	font-size: 28px;
+	font-weight: normal;
 	line-height: 1.5;
 }
 .banner-content h1 {
-	color: blue;
-	font-size: 35px;
+	color: #0000FF;
+	font-size: 38px;
+	font-weight: normal;
 	line-height: 1.5;
 }
-.banner-content p:last-child {
-	color: white;
-	font-size: 20px;
+.banner-content p {
+	font-size: 16px;
 	line-height: 1.5;
 }
 .banner-content button {
+	font-size: 20px;
 	border: none;
-	font-size: 25px;
 	border-radius: 8px;
-	padding: 10px 20px;
-	margin-top: 8px;
+	padding: 8px 15px;
+	margin-top: 10px;
+	transition: 0.5s;
+}
+.banner-content button i {
+	color: #0000FF;
+	font-size: 25px;
 }
 .banner-content button:hover {
-	background: none;
-}
-.banner-content button span {
-	background-color: blue;
-	border-radius: 94px;
-	color: white;
-	padding: 1px 7px;
+	background: transparent;
 }
 /* Banner End */
 
 /* Service Start */
-
 .service {
 	background-color: #121B2C;
 	padding: 50px 0px;
 }
-
 .single-service {
-	width: 29%;
+	width: 30%;
 	padding: 10px 20px;
 	float: left;
-	border-right: 1px solid white;
+	border-right: 1px solid #fff;
 	margin-left: 5px;
 }
 .single-service:first-child {
 	padding-left: 0px;
 }
 .single-service:last-child {
-	border-right: 0;
+	border-right: none;
 	padding-right: 0px;
 }
 .title {
@@ -129,15 +130,13 @@ header{
 	margin-top: 10px;
 }
 .icon-content h1{
-	color: white;
 	text-transform: capitalize;
 }
 .icon-content h2{
-	color: blue;
+	color: #0000FF;
 	text-transform: capitalize;
 }
-.content {
-}
+.content {}
 .content p {
 	color: white;
 	line-height: 1.5;
@@ -147,7 +146,7 @@ header{
 /* Address Start */
 .address {
 	background-color: #040811;
-	padding: 50px 0px;
+	padding: 50px 0 20px 0;
 }
 .single-address {
 	width: 29%;
@@ -165,16 +164,13 @@ header{
 	overflow: hidden;
 }
 .add-title p {
-	color: white;
 	font-size: 25px;
 	float: left;
 }
 .add-title p span {
-	color: blue;
+	color: #0000FF;
 }
-.add-content {
-	color: white;
-}
+.add-content {}
 .add-content p:first-child {
 	padding: 15px 0px;
 	margin-left: 0px;
@@ -213,11 +209,12 @@ header{
 }
 .footer-left ul li a {
 	text-decoration: none;
-	color: white;
+	color: #fff;
 	font-size: 14px;
 	padding: 0px 15px;
 	display: block;
-	border-right: 1px solid white;
+	border-right: 1px solid #fff;
+	transition: .5s;
 }
 .footer-left ul li:first-child a {
 	padding-left: 0px;
@@ -226,9 +223,11 @@ header{
 	padding-right: 0px;
 	border-right: 0px;
 }
+.footer-left ul li:hover a {
+	color: #0B5DB9;
+}
 .footer-left p {
 	padding-top: 15px;
-	color: white;
 	font-size: 14px;
 }
 .footer-right {
@@ -245,4 +244,3 @@ header{
 	width: 100%;
 }
 /* Footer End */
-
